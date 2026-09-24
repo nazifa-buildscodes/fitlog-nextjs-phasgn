@@ -51,7 +51,7 @@ export default function WorkoutDetails({ workout }) {
           />
         </div>
 
-        {/* Workout Information */}
+        {/* Workout Informations */}
         <section className="fade-in">
           <h1 className="font-display text-[38px] uppercase leading-[1.05] text-white sm:text-[44px]">
             {workout.name}
