@@ -751,28 +751,6 @@ npm start
 
 ---
 
-## ☁️ Deployment
-
-The project is deployed on **Vercel**.
-
-### Live Website
-
-https://fitlog-nextjs-phasgn.vercel.app/
-
-### GitHub Repository
-
-https://github.com/nazifa-buildscodes/fitlog-nextjs-phasgn
-
----
-
-## 🎯 Assignment
-
-This project was created for:
-
-**Programming Hero Batch 14 — Assignment 6 (FitLog)**
-
-The assignment helped me practice building a complete workout application using React and Next.js.
-
 ### Main Concepts Practiced
 
 - React Components
