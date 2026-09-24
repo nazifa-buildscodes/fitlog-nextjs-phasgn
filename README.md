@@ -751,6 +751,18 @@ npm start
 
 ---
 
+## ☁️ Deployment
+
+The project is deployed on Vercel.
+
+**Live Website:**
+
+https://fitlog-nextjs-phasgn.vercel.app/
+
+The project can be deployed by connecting the GitHub repository to Vercel.
+
+---
+
 ### Main Concepts Practiced
 
 - React Components
