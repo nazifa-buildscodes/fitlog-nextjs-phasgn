@@ -13,17 +13,6 @@ The application allows users to browse workouts, view detailed workout informati
 
 ---
 
-## 📸 Project Preview
-
-### Implemented Design
-
-![FitLog Preview](./Ui/after.png)
-
-### Reference Design
-
-![FitLog Reference](./Ui/before.png)
-
----
 
 ## 📌 About the Project
 
