@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <section className="container-fit pt-7 sm:pt-8">
       <div className="overflow-hidden rounded-[13px] border border-[#292e36] bg-[#191c22]">
-<div className="grid min-h-[620px] grid-cols-1 items-center md:grid-cols-[1.05fr_.95fr]">
+       <div className="grid min-h-[620px] grid-cols-1 items-center md:grid-cols-[1.05fr_.95fr]">
           {/* Hero Content */}
           <div className="px-7 py-10 sm:px-10 md:py-12">
             <span className="text-[11px] font-black tracking-wide text-[#c8ff00]">
@@ -23,8 +23,8 @@ export default function Hero() {
               into today&apos;s plan, and watch the week&apos;s work add up.
             </p>
 
-            <Link href="#library" className="accent-button mt-6">
-                      {/*  <Dumbbell size={16} /> */}
+              <Link href="#library" className="accent-button mt-6">
+                      {/*  <Dumbbell size={17} /> */}
 
               Browse Workouts
                                     {/*  <ArrowDown size={15} /> */}
