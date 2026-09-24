@@ -1,32 +1,33 @@
 # FitLog — Workout Library
 
-FitLog is a dark-themed and responsive workout library and planning application built with Next.js.
+FitLog is a dark-themed, responsive workout library and planning application built with Next.js.
 
 Users can explore workouts, view detailed workout information, add exercises to today's plan, save workouts for later, and manage their workout plan.
 
-## 🔗 Links
+## 🔗 Live Demo & GitHub
 
-- **Live Demo:** [fitlog-asgnmnt-next.js](YOUR_LIVE_LINK)
-- **GitHub Repository:** [fitlog-asgnmnt-next.js](YOUR_GITHUB_REPO_LINK)
+- **Live Demo:** https://fitlog-nextjs-phasgn.vercel.app/
+- **GitHub Repository:** nazifa-buildscodes/fitlog-nextjs-phasgn
 
 ---
 
 ## ✨ Features
 
 - Responsive design for mobile, tablet, and desktop
-- Workout library with API data
+- Workout library with data fetched from REST API
 - Dynamic workout details page
 - Add workouts to today's plan
 - Save workouts for later
 - Maximum 5 workouts in today's plan
 - Mark workouts as completed
-- Remove workouts from the plan or saved list
+- Remove workouts from plan or saved list
 - Sort workouts by duration, calories, and rating
 - Live workout statistics
 - Toast notifications for user actions
-- LocalStorage data persistence
-- Loading state
+- LocalStorage support for data persistence
+- Loading state while data is being loaded
 - Custom 404 page
+- Responsive navigation menu
 
 ---
 
@@ -54,27 +55,27 @@ Users can explore workouts, view detailed workout information, add exercises to 
 
 ---
 
-## 📚 Concepts Used
+## 📚 React & Next.js Concepts Used
 
-This project uses several important React and Next.js concepts.
+This project was built using several important React and Next.js concepts.
 
-| Concept | Usage |
+| Concept | Where It Is Used |
 |---|---|
 | Components | Navbar, Hero, WorkoutCard, PlanCard, Footer, etc. |
 | Props | Passing workout data and functions between components |
-| State | Managing workouts, plans, saved items, tabs, and sorting |
+| State | Managing plan, saved workouts, tabs, and sorting |
 | `useState` | Managing interactive component state |
 | `useEffect` | Loading and saving data with LocalStorage |
-| Event Handling | Button clicks, navigation, add/remove/done actions |
+| Event Handling | Button clicks, menu toggle, add/remove/done actions |
 | Conditional Rendering | Loading, empty states, active tabs, completed workouts |
 | Array Methods | `map()`, `filter()`, `reduce()`, `some()`, `sort()` |
-| JSON Data Handling | Working with workout API data |
+| JSON Data Handling | Handling workout data received from the API |
 | Data Fetching | Fetching workout data from the REST API |
 | Routing | Home, My Plan, and workout pages |
 | Dynamic Routing | `/workout/[id]` for individual workout details |
-| Context API | Sharing plan and saved workout state |
+| Context API | Sharing plan and saved workout state across components |
 | Server Components | Home page and workout detail page |
-| Client Components | Interactive navbar, plan, and workout actions |
+| Client Components | Navbar, My Plan, workout actions, and interactive UI |
 | LocalStorage | Persisting plan and saved workout data |
 
 ---
