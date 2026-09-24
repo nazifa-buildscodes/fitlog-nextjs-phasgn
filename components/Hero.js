@@ -27,7 +27,8 @@ export default function Hero() {
                       {/*  <Dumbbell size={17} /> */}
 
               Browse Workouts
-                                    {/*  <ArrowDown size={15} /> */}
+              
+                       {/*  <ArrowDown size={15} /> */}
 
               
             </Link>
