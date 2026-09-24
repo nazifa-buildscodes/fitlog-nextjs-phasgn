@@ -203,8 +203,7 @@ It shows:
 - Calories
 - Rating
 
-The card also provides workout actions and links to the workout details page.
-
+The card links to the dynamic workout details page.
 ---
 
 ### WorkoutDetails
