@@ -114,7 +114,7 @@ input {
 }
 
 .card-surface {
-  border: 1px solid #272c34;
+  border: 1px solid #272b31;
   background: var(--surface);
   border-radius: 12px;
 }
